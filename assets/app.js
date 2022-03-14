@@ -4,7 +4,7 @@ const timeblockContainer = $(".container");
 
 // show the timer on page load
 setInterval(function(){
-    timer.text(moment().format("YYYY-MM-DD HH:mm:ss"));
+    timer.text(moment().format("DD-MM-YYYY HH:mm:ss"));
 }, 1000);
 
 function createRow(time) {
