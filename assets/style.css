@@ -19,7 +19,7 @@ body {
     text-align: center;
     background-color: transparent;
     color: rgb(0, 255, 255);
-    background-image: url(./assets/hero.jpg);
+    background-image: url(./pics/hero.jpg);
     background-size: cover;
     border-radius: 0;
     border-bottom: 10px solid rgb(0, 255, 255);
@@ -77,6 +77,6 @@ body {
 
   body {
     background-color: rgb(67, 58, 190);
-    background-image: url(./assets/yeah2.jpg);
+    background-image: url(./pics/yeah2.jpg);
     background-size: cover;
   }
