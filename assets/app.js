@@ -99,4 +99,12 @@ $(document).on("click", ".save-button", function (event) {
     // 3. save
     localStorage.setItem(timeOfRow, userInput);
 
+    //when user clicks on reset all button
+    $(document).on("click", "#reset-button", function (event){  
+    //clear local storage
+    localStorage.clear();
+    window.location.reload();
+
+});
+
 });
